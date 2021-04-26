@@ -1,10 +1,12 @@
-##Setup
+## Setup
 Run command prompt as administrator
 Then install hostsman library:
 > pip install hostsman
 
 ##Run
-Simply run the "test_StatusCodes.py" on Command prompt(as administrator)
+Run as administrator:
+> python -m unittest -v test_StatusCodes
+test will prompth user to enter the path to the binary
 
 ##Description
 The test updates the hostfile to redirect www.google.com to different ip address to test the negative(error) cases.
